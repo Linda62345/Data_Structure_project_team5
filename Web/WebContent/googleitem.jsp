@@ -41,18 +41,15 @@ a:hover {
 		<div>
 			<a href='http://localhost:8080/Fin/TestProject'><img
 				src="images/Logo-1.png"
-				style='position: absolute; width: 20%; height: 20%; left: 50%; top: 50%; margin-top: -300px; margin-left: -500px'></a>
+				style='position: absolute; width: 20%; height: 20%; left: 50%; top: 50%; margin-top: -300px; margin-left: -630px'></a>
 		</div>
-		<div>
-			<input type='image' src="images/loupe-2.png"
-				style='position: absolute; width: 35px; height: 35px; left: 50%; top: 50%; margin-top: -350px; margin-left: 368px' />
-		</div>
+		
 		<div>
 				
-				<input type='text' class="border-style" id="padding"
-				style='font-size: 120%; position: absolute; left: 50%; top: 48%; margin-top: -250px; margin-left: -400px; width: 800px; height: 50px '
-				name='keyword' placeholder='請輸入關鍵字' onfocus="placeholder= '' "
-				onblur="placeholder='請輸入關鍵字'" />
+
+				<input type='text' class="border-style" id="padding" name='keyword'
+			style='font-size: 120%; position: absolute; left: 50%; top: 48%; margin-top: -250px; margin-left: -400px; width: 800px; height: 50px'
+			placeholder = '請輸入關鍵字' value='<%=request.getParameter("keyword")%>'/>
 		</div>
 		<div style='margin-top:50px; margin-left:15px'>
 			
