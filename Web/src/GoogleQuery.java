@@ -313,23 +313,6 @@ import java.io.IOException;
 		 return r;
 	}
 
-	 /*public  HashMap<String,String> hashmap() {
-		 //scoreSet retVal
-		 HashMap<String,String> results = new HashMap<String,String>();
-			
-		 List<Entry<String, Integer>> list = new ArrayList<Map.Entry<String,Integer>>(scoremap().entrySet());
-		 List<Entry<String, String>> list2 = new ArrayList<Map.Entry<String,String>>(query().entrySet());
-		 
-		 for(Entry<String, Integer> mapping:list){//title,score
-				for(Entry<String, String> result:list2) {//title,citeUrl
-					if(mapping.getKey().equals(result.getKey())) {
-						String key = result.getKey();
-						String value = result.getValue();
-						results.put(key,value);
-					}
-				}
-		 return results;
-	 }*/
 	
 	 
 	

@@ -20,41 +20,7 @@ public class KeywordList {
 	public KeywordList() throws FileNotFoundException {
 		lst = new ArrayList<Keyword>();
 		history();
-	//	readTXT();
 	}
-	
-	/*public void readTXT() {
-	//	KeywordList lst = new KeywordList();
-		
-		// InputStream file = Reader.class.getResourceAsStream("/final team 5/src/history.txt");
-		
-		//C:\\Users\\st970\\git\\final-team-5(2)\\final team 5\\src\\history.txt
-		
-		try {			
-			File file = new File("/history.txt");
-			Scanner scanner= new Scanner(file);
-			try {
-			while (scanner.hasNext()) {
-				String operation = scanner.next();
-
-				switch (operation) {
-				case "add":
-					String name = scanner.next();
-					int weight = scanner.nextInt();
-					add(new Keyword(name, weight));
-					break;
-				}
-			}
-			}finally {
-				scanner.close();
-			}			
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		
-	}*/
 	
 	public void history() {
 		lst.add(new Keyword("西元", 20));
@@ -69,8 +35,6 @@ public class KeywordList {
 		lst.add(new Keyword("戰爭", 20));
 		lst.add(new Keyword("維基", 20));
 		lst.add(new Keyword("發明", 20));
-		lst.add(new Keyword("最後的晚餐", 20));
-		lst.add(new Keyword("文藝復興", 20));
 		lst.add(new Keyword("出生", 10));
 		lst.add(new Keyword("西元前", 10));
 		lst.add(new Keyword("登基", 10));
@@ -88,9 +52,7 @@ public class KeywordList {
 		lst.add(new Keyword("棒球", -10));
 		lst.add(new Keyword("女友", -10));
 		lst.add(new Keyword("緋聞", -10));
-		lst.add(new Keyword("鐵達尼號", -10));
 		lst.add(new Keyword("奧斯卡", -10));
-		lst.add(new Keyword("奶凍捲", -10));
 		lst.add(new Keyword("書局", -10));
 		lst.add(new Keyword("眼科", -10));
 		lst.add(new Keyword("電視劇", -10));

@@ -62,23 +62,6 @@ public class TestProject extends HttpServlet {
 					 num++;	/////
 			}
 		
-		/*HashMap<Integer, String> score = google.scoremap();
-		List<Integer> order = google.sort(score);
-		
-		String [][] s = new String[query.size()][2];
-		request.setAttribute("query", s);
-		
-		int num=0;
-		for(Integer i:order) {
-			for(Entry<String, String> entry : query.entrySet()) {
-				String key = score.get(i);
-				String value = query.get(query);
-				 s[num][0] = key;
-				 s[num][1] = value;
-				 num++;	
-			}
-		}*/
-		
 		
 		request.getRequestDispatcher("googleitem.jsp")
 		 .forward(request, response); //系統說錯在這裏

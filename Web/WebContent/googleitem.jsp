@@ -45,7 +45,7 @@ a:hover {
 		</div>
 		
 		<div>
-				
+	
 
 				<input type='text' class="border-style" id="padding" name='keyword'
 			style='font-size: 120%; position: absolute; left: 50%; top: 48%; margin-top: -250px; margin-left: -400px; width: 800px; height: 50px'
